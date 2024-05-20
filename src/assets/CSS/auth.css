@@ -1,0 +1,282 @@
+body.dark{
+    background: #071739 !important;
+  }
+
+
+.loginSection{
+    width: 100%;
+    height: 100vh;
+    padding: 35px 25px;
+    background: #f0f0f0;
+    position: relative;
+}
+
+.loginPattern{
+    width: 100%;
+    height: 100%;
+    opacity: 0.08;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.loginSection .loginBox{
+    width: 360px;
+    height: auto;
+    margin: auto;
+}
+
+.loginSection .loginBox .wrapper{
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    position: relative;
+    z-index: 100;
+    padding: 35px 45px;
+}
+
+.loginSection .loginBox .wrapper .form-group{
+    margin-bottom: 20px;
+}
+
+.loginSection .loginBox .wrapper .form-control{
+    background: #fff !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    padding-left: 40px;
+}
+
+.loginSection .loginBox .wrapper .form-control:focus{
+    border: 1px solid #0858f7 !important;
+}
+
+.loginSection .loginBox .wrapper .form-group.error{
+    border: 1px solid rgba(239,68,68,1) !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px;
+}
+
+.loginSection .loginBox .wrapper .form-group.focus .icon svg{
+    color: #0858f7 !important;
+}
+
+.loginSection .loginBox .wrapper .form-group .icon{
+    position: absolute;
+    top: 3px;
+    left: 10px; 
+    z-index: 100;
+    font-size: 23px;
+}
+
+.loginSection .loginBox .wrapper .form-group .icon svg{
+    color: #5e5d72;
+}
+
+.toggleShowPassword{
+    position: absolute;
+    top:10px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.toggleShowPassword svg{
+    font-size: 22px;
+}
+
+.link{
+    color: #5e5d72;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #0858f7 !important;
+    text-decoration: none;
+}
+
+.link.color{
+    color: #0858f7 !important;
+    text-decoration: none;
+}
+
+
+.loginSection .loginBox .wrapper .link{
+    font-size: 14px;
+}
+
+.loginSection .loginBox .wrapper .or span.line{
+    display: block;
+    width: 35%;
+    height: 1px;
+    background: rgba(0,0,0,0.2);
+}
+
+.loginSection .loginBox .wrapper .or span.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+.loginBox .logo{
+    margin-bottom: 20px;
+}
+
+.loginWithGoogle{
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.text-red-500 {
+    color:  rgba(239,68,68,1);
+}
+.text-sm {
+    font-size: .8125rem;
+}
+.hidden {
+    display: none; 
+}
+
+.mc-auth{
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.mc-auth-group {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 30px 0 50px;
+    text-align: center;
+}
+
+.mc-auth-pattern {
+    height: 100%;
+    left: 0;
+    opacity: .08;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.mc-auth-logo {
+    margin-bottom: 10px;
+}
+
+.mc-auth-logo img {
+    height: 55px;
+}
+
+.mc-auth-title {
+    margin-bottom: 25px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mc-auth-form {
+    background-color: #f0f0f0;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 35px;
+}
+
+.mc-icon-field.h-sm {
+    height: 42px;
+}
+.mc-icon-field {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    display: flex;
+    gap: 0;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding: 0 12px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.mc-icon-field svg {
+    font-size: 20px;
+}
+
+.mc-icon-field input, .mc-icon-field select, .mc-icon-field textarea {
+    background-color: #0000;
+    height: 100%;
+    padding: 0 12px;
+    width: 100%;
+}
+
+input, textarea {
+    font-size: 15px;
+}
+button, input, select, textarea {
+    background: none;
+    border: none;
+    color: #5e5d72;
+    outline: none;
+}
+
+.mc-auth-btn {
+    background-color: #0858f7;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.mc-auth-btn.h-sm {
+    height: 42px;
+}
+
+.mc-auth-navigate {
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mc-auth-navigate a {
+    color: #0858f7;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}

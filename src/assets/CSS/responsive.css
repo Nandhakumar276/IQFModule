@@ -1,0 +1,327 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    background-color: red;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 60%;
+  }
+
+  .sidebar-menu-title,
+    .logoutWrapper .logoutBox,
+    header .logo img,
+    header button.full-screen,
+    .myAcc .userInfo {
+      display: none;
+    }
+
+  
+    .mc-card {
+      padding: 20px 15px;
+    }
+  
+    .mc-breadcrumb {
+      flex-direction: column;
+    }
+  
+    .mc-card-title {
+      text-align: center;
+    }
+
+    .dropdownWrapper {
+      display: none;
+   }
+ 
+   .myAccWrapper {
+     margin-right: 50px;
+   }
+
+   #notification .MuiPaper-elevation{
+    right: 10px;
+   }
+
+   header button#search{
+    display: block;
+   }
+ 
+    .searchBox {
+      visibility: hidden;
+    }
+  
+    .part3 {
+      position: fixed;
+      top: 0px !important;
+      left: 50px !important;
+    }
+}
+
+ /* Media Query for Small Tablet with Portrait */
+ @media only screen and (min-width: 481px) and (max-width: 575px) {
+  body {
+    background-color: yellow;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 50%;
+  }
+
+  .searchBox {
+    visibility: hidden;
+  }
+
+  .sidebar-menu-title,
+    .logoutWrapper .logoutBox,
+    header .logo img,
+    header button.full-screen,
+    .myAcc .userInfo {
+      display: none;
+    }
+
+    .mc-card {
+      padding: 20px 15px;
+    }
+  
+    .mc-breadcrumb {
+      flex-direction: column;
+    }
+  
+    .mc-card-title {
+      text-align: center;
+    }
+
+    .dropdownWrapper {
+      display: none;
+   }
+ 
+   .myAccWrapper {
+     margin-right: 60px;
+   }
+
+   #notification .MuiPaper-elevation{
+    right: 10px;
+   }
+
+   .part3 {
+    position: fixed;
+    top: 0px !important;
+    left: 50px !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  body{
+      background-color: coral;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 50%;
+  }
+
+  header button.togglesidebar{
+    margin-left: -80px;
+  }
+
+  .searchBox {
+    visibility: hidden;
+  }
+
+  .sidebar-menu-title,
+    .logoutWrapper .logoutBox,
+    header button.full-screen {
+      display: none;
+    }
+
+    header .logo img{
+      margin-right: 100%;
+      margin-left: 100%
+    }
+
+    .mc-card {
+      padding: 20px 15px;
+    }
+  
+    .mc-breadcrumb {
+      flex-direction: column;
+    }
+  
+    .mc-card-title {
+      text-align: center;
+    }
+
+    .dropdownWrapper {
+      display: none;
+   }
+ 
+   .myAccWrapper {
+     margin-right: -170px;
+   }
+
+   #notification .MuiPaper-elevation{
+    right: 10px;
+   }
+
+   .part3 {
+    position: fixed;
+    top: 0px !important;
+    left: 50px !important;
+  }
+
+}
+
+ /* Media Query for Large Tablet with Portrait */
+ @media only screen and (min-width: 768px) and (max-width: 800px) {
+  body {
+    background-color: crimson;
+  }
+
+  header .logo img{
+    margin-right: 50%;
+    margin-left: 70%
+  }
+
+
+  header button.togglesidebar{
+    margin-left: -120px;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 30%;
+  }
+
+  .searchBox {
+    visibility: hidden;
+  }
+
+  .sidebar-menu-title,
+    .logoutWrapper .logoutBox,
+    header button.full-screen {
+      display: none;
+    }
+
+    .mc-card {
+      padding: 20px 15px;
+    }
+  
+    .mc-breadcrumb {
+      flex-direction: column;
+    }
+  
+    .mc-card-title {
+      text-align: center;
+    }
+
+    .dropdownWrapper {
+      display: none;
+   }
+ 
+
+   .myAccWrapper {
+    margin-right: -250px;
+  }
+
+   #notification .MuiPaper-elevation{
+    right: 10px;
+   }
+
+   .part3 {
+    position: fixed;
+    top: 0px !important;
+    left: 50px !important;
+  }
+
+}
+
+ /* Media Query for Tablets iPads portrait mode */
+ @media only screen and (min-width: 801px) and (max-width: 1023px) {
+  body {
+    background-color: blue;
+  }
+
+  header .logo img{
+    margin-right: 50%;
+    margin-left: 70%
+  }
+
+
+  header button.togglesidebar{
+    margin-left: -120px;
+  }
+
+  .main .sidebarWrapper .sidebar {
+    width: 30%;
+  }
+
+  .searchBox {
+    visibility: hidden;
+  }
+
+  .sidebar-menu-title,
+    .logoutWrapper .logoutBox,
+    header button.full-screen {
+      display: none;
+    }
+
+    .mc-card {
+      padding: 20px 15px;
+    }
+  
+    .mc-breadcrumb {
+      flex-direction: column;
+    }
+  
+    .mc-card-title {
+      text-align: center;
+    }
+
+    .dropdownWrapper {
+      display: none;
+   }
+ 
+
+   .myAccWrapper {
+    margin-right: -250px;
+  }
+
+   #notification .MuiPaper-elevation{
+    right: 10px;
+   }
+
+   .part3 {
+    position: fixed;
+    top: 0px !important;
+    left: 50px !important;
+  }
+
+
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  body {
+    background-color: green;
+  }
+  header button#search{
+    display: none;
+   }
+
+   .main .sidebarWrapper .sidebar {
+    width: 25%;
+  }
+
+  header .logo img{
+    margin-right: 10%;
+    margin-left: 10%
+  }
+ 
+}
+
+/* Media Query for Large screens */
+@media only screen and (min-width: 1280px) {
+  header button#search{
+    display: none;
+   }
+}

@@ -1,0 +1,66 @@
+.pre-loader {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #fafafa
+}
+
+.pre-loader .app-loading {
+   margin: 18% auto 0;
+   width: 342px
+}
+
+.pre-loader .app-loading .progress {
+   width: 85%
+}
+
+.pre-loader .app-loading .progress-bar {
+   background-color: #58a5e1;
+   width: 100%
+}
+
+.text-center {
+   text-align: center!important
+}
+
+.mx-auto {
+   margin-right: auto!important;
+   margin-left: auto!important
+}
+
+p {
+   margin-bottom: 1rem;
+}
+
+.loader {
+ display: flex;
+  justify-content: center;
+}
+
+.fruit {
+ width: 15px;
+ height: 15px;
+ margin: 0 5px;
+ border-radius: 50%;
+ background-color: #f1c40f; /* Adjust color as needed */
+ animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+ 0% {
+   transform: translateY(0);
+ }
+ 100% {
+   transform: translateY(-20px);
+ }
+}
+
+.fruit:nth-child(2) {
+ animation-delay: 0.2s;
+}
+
+.fruit:nth-child(3) {
+ animation-delay: 0.4s;
+}

@@ -210,7 +210,7 @@ const Login = () =>{
                                         id="username"
                                         name="username"
                                         value={userName}  
-                                        onInput={handleUserNameChange} autoFocus
+                                        onInput={handleUserNameChange} 
                                     />
                                 </div>
                                 <div id="username-error" className={`text-sm text-red-500 ${showUsernameError ? '' : 'hidden'}`}>Please enter a valid email address.</div>

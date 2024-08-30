@@ -84,7 +84,7 @@ const SearchBox = () =>{
             </IconButton>
             <DialogContent dividers>
                 <TextField
-                autoFocus
+                
                 required
                 margin="dense"
                 id="name"
@@ -97,10 +97,10 @@ const SearchBox = () =>{
               />
             </DialogContent>
             <DialogActions>
-              <Button autoFocus onClick={handleClose} variant="contained" color="primary">
+              <Button  onClick={handleClose} variant="contained" color="primary">
                 Search
               </Button>
-              <Button autoFocus onClick={handleClose} variant="contained" color="primary">
+              <Button  onClick={handleClose} variant="contained" color="primary">
                 Cancel
               </Button>
             </DialogActions>

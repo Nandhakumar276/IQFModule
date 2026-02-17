@@ -333,7 +333,7 @@ const Header = () =>{
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={handleClose}>
+          <Button  onClick={handleClose}>
             Save changes
           </Button>
         </DialogActions>
